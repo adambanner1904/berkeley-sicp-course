@@ -1,4 +1,4 @@
-package week1fp1
+package T1FunctionalProgramming
 
 import language.StringFunctions.*
 
@@ -6,7 +6,7 @@ import scala.annotation.tailrec
 
 object Lecture {
   def pi = 3.1415
-  def square(x: Int): Int = x * x
+  def square(x: Double): Double = x * x
 
   def plural(wd: String): String =
     if last(wd) == "y" then word(butlast(wd), "ies")

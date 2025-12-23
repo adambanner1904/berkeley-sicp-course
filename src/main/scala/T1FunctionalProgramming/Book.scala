@@ -1,4 +1,4 @@
-package week1fp1
+package T1FunctionalProgramming
 
 import language.SchemeSyntax.*
 
@@ -13,8 +13,8 @@ object Book:
   //    (* 3
   //       (- 6 2)
   //       (- 2 7)))
-  def square(x: Int): Int = x * x
-  def sumOfThreeSquares(x: Int, y: Int, z: Int): Int =
+  def square(x: Double): Double = x * x
+  def sumOfThreeSquares(x: Double, y: Double, z: Double): Double =
     add(square(x), square(y), square(z))
 
   """Exercise 1.7
